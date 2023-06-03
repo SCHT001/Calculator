@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(45deg,lime,rgb(59, 164, 229));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#num{
+    height: 5em;
+    width: 5em;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: large;
+    border: none;
+    box-shadow: 1px 3px 3px rgb(136, 55, 222);
+}
+#display{
+    
+    width: 8.3em;
+    border: none;
+    background-color: transparent;
+    text-overflow:initial;
+    font-size: 3em;
+    height: 1.2em;
+    text-align: right;
+}
+
+#equals{
+    height: 5em;
+    width: 11em;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: large;
+    border: none; 
+    box-shadow: 1px 3px 3px rgb(136, 55, 222);
+}
+.container{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+
