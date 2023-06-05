@@ -23,6 +23,7 @@ body{
     font-size: 3em;
     height: 1.2em;
     text-align: right;
+    height: 2em;
 }
 
 #equals{
@@ -38,6 +39,10 @@ body{
     border: 1px solid black;
     padding: 20px;
     border-radius: 25px;
+}
+button{
+    background-color: rgb(166, 38, 231);
+    
 }
 
 
