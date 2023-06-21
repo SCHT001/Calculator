@@ -18,10 +18,26 @@ onBtn.addEventListener('click',()=>{
 
 function displayAdder(a){
     var display=document.getElementById('display');
+    display.value+=a;
 }
 function equalsCalc()
 {
     var display=document.getElementById('display');
-    var result=eval(display.value);
-    display.value=result;
+    try{display.value=eval(display.value)}
+    catch(e){
+    display.value="Syntax Error";
 }
+  
+}
+
+
+var deBtn=document.querySelector('.deBtn');
+deBtn.addEventListener('click',()=>{
+    display.value.toString().slice(0,-1);
+})
+
+    
+var acBtn=document.querySelector(".acBtn");
+acBtn.addEventListener('click',()=>{
+    display.value="";
+})
