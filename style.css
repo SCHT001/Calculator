@@ -1,48 +1,56 @@
-body{
-    background: linear-gradient(45deg,lime,rgb(59, 164, 229));
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+body {
+  background: linear-gradient(45deg, lime, rgb(59, 164, 229));
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
-#num{
-    height: 5em;
-    width: 5em;
-    border-radius: 25px;
-    margin: 5px;
-    font-size: large;
-    border: none;
-    box-shadow: 1px 3px 3px rgb(136, 55, 222);
+*{
+    font-family: 'Patrick Hand', cursive;
 }
-#display{
-    
-    width: 8.3em;
-    border: none;
-    background-color: transparent;
-    text-overflow:initial;
-    font-size: 3em;
-    height: 1.2em;
-    text-align: right;
-    height: 2em;
+#num {
+  height: 2em;
+  width: 2em;
+  border-radius: 25px;
+  margin: 5px;
+  font-size: 3em;
+  border: none;
+  box-shadow: 1px 3px 3px rgb(136, 55, 222);
 }
-
-#equals{
-    height: 5em;
-    width: 11em;
-    border-radius: 25px;
-    margin: 5px;
-    font-size: large;
-    border: none; 
-    box-shadow: 1px 3px 3px rgb(136, 55, 222);
-}
-.container{
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 25px;
-}
-button{
-    background-color: rgb(166, 38, 231);
-    
+#display {
+  width: 10em;
+  border: none;
+  background-color: transparent;
+  text-overflow: initial;
+  font-size: 3em;
+  height: 1.2em;
+  text-align: right;
+  height: 2em;
 }
 
-
+#equals {
+  height: 2em;
+  width: 4.2em;
+  border-radius: 25px;
+  margin: 5px;
+  font-size: 3em;
+  border: none;
+  box-shadow: 1px 3px 3px rgb(136, 55, 222);
+}
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgb(119, 218, 227);
+}
+button {
+  background-color: rgb(169, 80, 213);
+}
+.acBtn {
+  background-color: rgb(255, 46, 46);
+}
+.deBtn {
+  background-color: greenyellow;
+}
