@@ -3,7 +3,7 @@ equals.addEventListener('click',equalsCalc);
 var onBtn=document.querySelector('.onBtn'); 
 var running=false;
 var displayBox=document.getElementById('display');
-running=!running;
+
 if (running){
     onBtn.style.backgroundColor="Orange";
     onBtn.innerHTML="OFF"

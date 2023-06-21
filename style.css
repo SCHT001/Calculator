@@ -17,7 +17,7 @@ body {
   margin: 5px;
   font-size: 3em;
   border: none;
-  box-shadow: 1px 3px 3px rgb(136, 55, 222);
+  box-shadow: 0px 5px 3px rgb(136, 55, 222);
 }
 #display {
   width: 10em;
@@ -53,4 +53,21 @@ button {
 }
 .deBtn {
   background-color: greenyellow;
+}
+
+@media (max-width:600px){
+  #num{
+    height: 1.5em;
+    width: 1.5em;
+    font-size: 2em;
+  }
+  #equals{
+    height: 1.5em;
+    width: 3.4em;
+    font-size: 2em;
+  }
+  #display{
+    width: 9em;
+    font-size: 2em;
+  }
 }
