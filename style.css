@@ -18,6 +18,10 @@ body {
   font-size: 3em;
   border: none;
   box-shadow: 0px 5px 3px rgb(136, 55, 222);
+  cursor: pointer;
+}
+#num:hover,#equals:hover{
+  box-shadow: 0px 0px 0px white;
 }
 #display {
   width: 10em;
@@ -38,6 +42,7 @@ body {
   font-size: 3em;
   border: none;
   box-shadow: 1px 3px 3px rgb(136, 55, 222);
+  cursor: pointer;
 }
 .container {
   border: 1px solid black;
