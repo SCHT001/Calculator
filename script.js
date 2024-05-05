@@ -42,7 +42,6 @@ function equalsCalc() {
     }
   }
 }
-
 var deBtn = document.querySelector(".deBtn");
 deBtn.addEventListener("click", () => {
   if (running) {
