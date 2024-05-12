@@ -35,6 +35,7 @@ function displayAdder(a) {
 function equalsCalc() {
   if (running) {
     var display = document.getElementById("display");
+
     try {
       display.value = eval(display.value);
     } catch (e) {
